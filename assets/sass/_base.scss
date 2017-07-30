@@ -1,0 +1,99 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	.navbar-default {
+		@include transparente();
+   		.navbar-brand {
+   			padding-left: 400px;
+   			margin-bottom: 50px;
+   		}
+   		.navbar-nav {
+   			padding-left: 340px;
+   		}
+	}
+}
+
+.method {
+	.text-method {
+		h6{
+			margin: 20px 0;	
+			font-weight: 200; 
+			font-size: 16px;
+		}
+
+		p{
+			font-weight: 200; 
+			font-size: 13px;			
+		}
+		.cit {
+			@include cita();
+		}
+	}
+	hr{
+		@include linea();
+	}
+}
+
+.newsfeed {
+	.cit {
+		@include cita();
+	}
+	.text-caja-newsfeed {
+		background-color:#EDF0F1;
+		padding: 15px 30px;
+		.text-caja{
+			.link{
+				color: #356DF1;
+			}
+		}
+	}
+	hr{
+		@include linea();
+	}
+}
+
+.method-examples {
+	.caja-method-examples {
+		margin: 30px 0;
+	}
+	h4{
+		font-size: 22px;
+		margin-bottom: 5px;
+	}
+	
+	img{
+		float: left;
+		padding-top: 10px;
+	}
+	h6{
+		padding-top: 10px;
+	}
+	
+	.cit {
+		margin: 5px 0;
+		@include cita();
+	}
+}
+
+footer {
+	padding: 30px 0;
+	.text-fo {
+		h6{
+			font-size: 20px;
+			color: #000000;
+		}
+		p{
+			font-weight: 200;
+			font-size: 12px;
+		}
+		ul{
+			padding-left: 0;
+			padding-right: 20px;
+			
+			list-style:none;
+			float: left;
+		}
+	}
+}

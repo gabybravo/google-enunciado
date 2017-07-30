@@ -1,0 +1,13 @@
+@mixin linea {
+	border-top: 4px solid #356DF1;
+}
+
+@mixin transparente {
+	background-color: transparent;
+   	border-color: transparent;
+}
+
+@mixin cita {
+	font-family: 'Inconsolata', monospace;
+	color: #737373;
+}
